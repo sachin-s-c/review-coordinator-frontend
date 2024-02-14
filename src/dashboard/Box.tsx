@@ -1,5 +1,5 @@
 import ReactApexChart from "react-apexcharts"
-import review from '../assets/images/task.png'
+import review from '../assets/images/profile.webp'
 const Box=()=>{
     const series = [70]; //70 percent
     const options = {

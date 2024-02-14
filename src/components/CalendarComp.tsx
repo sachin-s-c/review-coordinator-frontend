@@ -1,8 +1,8 @@
 
 import Calendar from "react-calendar"
 import 'react-calendar/dist/Calendar.css'
-import Notification from "./dashboard/Notification"
-import TopPerformers from "./dashboard/TopPerformers"
+import Notification from "../dashboard/Notification"
+import TopPerformers from "../dashboard/TopPerformers"
 
 const CalendarComp=()=>{
     return (
@@ -11,7 +11,7 @@ const CalendarComp=()=>{
        
        
         <div>
-            <TopPerformers/>
+            <TopPerformers graphHeight={100}/>
         </div>
         <div className="mt-6 ">
       

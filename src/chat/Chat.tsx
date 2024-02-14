@@ -11,7 +11,7 @@ const Chat=()=>{
 <div className="flex border  ">
   
   
-  <div className="border-r w-1/2 bg-white">
+  <div className="border-r w-1/2 bg-white rounded-l-md ">
     <div className="m-2">
   <div className="relative">
     <div className="absolute m-3"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 stroke-slate-400">
@@ -154,7 +154,7 @@ const Chat=()=>{
 
 </div>
 
- <div className=" bg-white">
+ <div className=" bg-white rounded-r-md">
   <div className="flex justify-center m-14 mb-4">
     <div className="border w-36 h-36 rounded-full mt-14 ">
 

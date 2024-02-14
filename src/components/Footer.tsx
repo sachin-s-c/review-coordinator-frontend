@@ -3,7 +3,7 @@
 const Footer=()=>{
     return (
         <>
-        <nav className='bg-white bottom-0 fixed w-full shadow-xl h-12  z-10'>
+        <nav className='bg-white bottom-0  w-full  h-12  '>
 
 <nav className=''>
   <ul className='flex items-center text-gray-500 text-sm pt-4 gap-[1vw] pl-64'>

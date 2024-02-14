@@ -1,4 +1,4 @@
-import SearchBar from "../SearchBar"
+import SearchBar from "../components/SearchBar"
 import ScheduledHead from "./ScheduledHead"
 import ScheduledRow from "./ScheduledRow"
 
@@ -7,14 +7,14 @@ const Scheduled=()=>{
     return (
         <>
       
-         <div className="bg-white rounded-md max-h-full"> 
+         <div className="bg-white rounded-md h-full mb-2"> 
          
-<div>
-    jojfojejif
+<div className="">
+  
 </div>
          
         <div className="ml-3  ">
-            <div className="mb-3">
+            <div className="mb-3 ">
             <span className="font-bold text-xl mt-8">Reviews </span>
             </div>
         </div>
@@ -24,7 +24,7 @@ const Scheduled=()=>{
         </div>
 
              
-        <div className="m-2">
+        <div className="m-2 mt-4">
         <ScheduledHead/>
         <ScheduledRow/>
         <ScheduledRow/>
@@ -33,6 +33,8 @@ const Scheduled=()=>{
         <ScheduledRow/>
         <ScheduledRow/>
         <ScheduledRow/>
+
+     
        
             </div>
             <div className="m-2">

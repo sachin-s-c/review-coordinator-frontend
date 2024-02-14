@@ -89,7 +89,7 @@ const TaskUpdate=()=>{
   <div className="flex gap-3"> 
      <div className="w-full">
 
-  <textarea name="" id="" cols={37} rows={8} className="border border-gray-400 rounded-sm outline-black  w-full" placeholder="Enter pending topics " wid></textarea>
+  <textarea name="" id="" cols={37} rows={8} className="border border-gray-400 rounded-sm outline-black  w-full" placeholder="Enter pending topics " ></textarea>
 </div>
 <div className="w-full">
 
@@ -104,7 +104,7 @@ const TaskUpdate=()=>{
   <div className="flex gap-3"> 
      <div className="w-full">
 
-  <textarea name="" id="" cols={37} rows={8} className="border border-gray-400 rounded-sm outline-black  w-full" placeholder="Enter pending topics " wid></textarea>
+  <textarea name="" id="" cols={37} rows={8} className="border border-gray-400 rounded-sm outline-black  w-full" placeholder="Enter pending topics " ></textarea>
 </div>
 <div className="w-full">
 

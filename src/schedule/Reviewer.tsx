@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Slot from "./Slot"
-import SearchBar from "../SearchBar"
+import SearchBar from "../components/SearchBar"
 
 
 const Reviewer=()=>{

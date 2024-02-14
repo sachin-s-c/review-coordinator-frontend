@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Navigation from './Navigation'
+import Navigation from './components/Navigation'
 import EventCalendar from './events/EventCalendar'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import SideNav from './SideNav'
+import SideNav from './components/SideNav'
 import Scheduled from './schedule/Schedule'
 import Dashboard from './dashboard/Dashboard'
 import ReviewerComp from './reviewer/ReviewerComp'
@@ -11,8 +11,8 @@ import ExtPage from './extend-request/ExtPage'
 import Student from './students/Student'
 import Reviewer from './schedule/Reviewer'
 import Chat from './chat/Chat'
-import SignIn from './SignIn'
-import Footer from './Footer'
+import SignIn from './components/SignIn'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -68,8 +68,9 @@ user?<Navigation/>:   <SignIn/>
       </div>
 
    
-     
+    
       </BrowserRouter>
+      <Footer/>
       </div>
 
       </>

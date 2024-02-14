@@ -2,6 +2,7 @@ import MiniChart from 'react-mini-chart'
 import profile from '../assets/images/profile.webp'
 
 const TopPerformers=()=>{
+  
     return (
         <>
          <div className="border border-2px  rounded-md  h-72 overflow-y-auto bg-white ">

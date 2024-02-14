@@ -1,5 +1,5 @@
 import Calendar from "react-calendar"
-import CalendarComp from "../CalendarComp"
+import CalendarComp from "../components/CalendarComp"
 import PerformanceGraph from "../dashboard/PerformanceGraph"
 
  

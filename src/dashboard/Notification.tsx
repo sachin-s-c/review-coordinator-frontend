@@ -1,5 +1,6 @@
 
-import {jitsiIcon} from '../assets/images/jitsi.svg'
+
+
 const Notification=()=>{
     return (
         <>
@@ -10,7 +11,7 @@ const Notification=()=>{
     </div>
 
 
-<div className="border border-2px rounded-md m-2 flex justify-between border-l-4 border-l-red-400 ">
+<div className="border border-2px rounded-md m-2 flex justify-between border-l-4 border-l-darkBlue">
   <div  className="m-2">
     <div><span className='text-sm'>This is your update</span></div>
     <div><span className='text-sm'>9:30 am</span></div>
@@ -47,7 +48,7 @@ const Notification=()=>{
 </div>
 
 </div>
-<div className="border border-2px rounded-md m-2 flex justify-between border-l-4 border-l-green-300">
+<div className="border border-2px rounded-md m-2 flex justify-between border-l-4 border-l-darkBlue">
   <div  className="m-2">
     <div><span className='text-sm'>This is your update</span></div>
     <div><span className='text-sm'>9:30</span></div>
