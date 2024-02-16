@@ -5,9 +5,9 @@ const Notification=()=>{
     return (
         <>
        
-<div className="border border-2px  rounded-md h-72 overflow-y-auto mt-5 bg-white ">
+<div className="border border-2px  rounded-md h-72 overflow-y-auto mt-5 bg-white  shadow-lg">
     <div className="m-2 sticky top-3">
-        <span className="font-semi-bold">Notifications</span>
+        <span className="font-semibold">Notifications</span>
     </div>
 
 

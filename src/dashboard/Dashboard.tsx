@@ -27,18 +27,18 @@ const Dashboard=()=>{
           }
         }
       },
-      colors:['#347dc1']
+      colors:['#276497']
     }
 
     return (
         <>
         <div className="flex justify-between ">
             <div className="w-4/6 "> 
-            <div className=" border   rounded-lg  m-4 mt-0  mb-0 h-fit bg-white  ">
+            <div className=" border   rounded-lg  m-4 mt-0  mb-0 h-fit bg-white  shadow-lg">
   <div className="flex justify-between m-4 ">
       <div>
-<span className="font-semi bold">Helloo coordinator !!!!!</span>
-<div>
+<span className="font-semibold text-lg">Helloo coordinator !!!!!</span>
+<div className="mt-1">
   <span>Complete your task</span>
 </div>
   </div>
@@ -56,10 +56,10 @@ const Dashboard=()=>{
            <div className="flex    rounded-md  m-2   ">
            <div className="grid grid-cols-2   gap-2 m-2">
             <Box/>
-            <div className="border border-2px  m-2 mx-auto rounded-md  bg-white " >
+            <div className="border border-2px  m-2 mx-auto rounded-md  bg-white   shadow-lg" >
   <div className="flex m-2 ">
-    <div> <span  className="font-bold"> Shared Reviews</span>
- <div className="mt-6">
+    <div> <span  className="font-semibold"> Shared Reviews</span>
+ <div className="mt-4">
    <span className="text-4xl">18</span>
  </div>
     </div>
@@ -93,9 +93,9 @@ const Dashboard=()=>{
   
 
 </div>
-<div className="border border-2px  m-2 mx-auto rounded-md  bg-white " >
+<div className="border border-2px  m-2 mx-auto rounded-md  bg-white   shadow-lg" >
   <div className="flex m-2 ">
-    <div> <span className="font-bold">  Weekly Tasks</span>
+    <div> <span className="font-semibold">  Weekly Task</span>
  <div className="mt-3">
    <span className="text-4xl">12</span>
  </div>
@@ -107,9 +107,9 @@ const Dashboard=()=>{
   
 
 </div>
-<div className="border border-2px  m-2 mx-auto rounded-md  bg-white " >
+<div className="border border-2px  m-2 mx-auto rounded-md  bg-white   shadow-lg" >
   <div className="flex m-2  ">
-    <div> <span className="font-bold"> Total reviews </span>
+    <div> <span className="font-semibold"> Total reviews </span>
  <div className="mt-3">
    <span className="text-4xl">17</span>
  </div>
@@ -126,9 +126,9 @@ const Dashboard=()=>{
         </div>
         
 
-        <div className="border   rounded-md  x  m-2 mt-4 mb-4 bg-white ">
+        <div className="border   rounded-md  x  m-2 mt-4 mb-4 bg-white   shadow-lg">
         <div className="ml-2 mt-4 text-center">
-                <span className="font-bold">Task completion</span>
+                <span className="font-semibold">Task completion</span>
             </div>
         <ReactApexChart options={options} series={series}  type="radialBar" width={200} height={200}  />
         <div className="text-center">
@@ -139,14 +139,14 @@ const Dashboard=()=>{
 
            </div>
         
-           <div className="border m-4 mt-2  rounded-md bg-white ">
+           <div className="border m-4 mt-2  rounded-md bg-white  shadow-lg">
             <div className="m-2">
                 <span className="font-semibold">Weekly summary</span>
             </div>
          <WeeklySummary/>  
         </div>
            
-        <div className="border m-4 mt-6 rounded-md bg-white ">
+        <div className="border m-4 mt-6 rounded-md bg-white  shadow-lg ">
             <div className="m-2">
                 <span className="font-semibold">Performance Graph</span>
             </div>
@@ -160,7 +160,7 @@ const Dashboard=()=>{
 
 
         </div>
-        <div className="m-4 mr-0 border rounded-md bg-white">
+        <div className="m-4 mr-0 border rounded-md bg-white  shadow-lg">
             <TableNav/>
             <NewTask/>
         </div>

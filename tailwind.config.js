@@ -8,7 +8,7 @@ export default {
     extend: {
 
       colors: {
-        darkBlue:'#347dc1'
+        darkBlue:'#276497'
         // ... other default colors
       }
     },

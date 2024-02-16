@@ -34,7 +34,7 @@ user?<Navigation/>:   <SignIn/>
     <BrowserRouter>
     
     <div className="max-w-7xl w-full  pt-28  mx-auto flex gap-8 ">       
-       <div className=' border border-gray-200  rounded-lg w-2/12  bg-white h-fit'>
+       <div className=' border border-gray-200  rounded-lg w-2/12   h-fit  '>
    
 
 <SideNav/>
@@ -70,7 +70,10 @@ user?<Navigation/>:   <SignIn/>
    
     
       </BrowserRouter>
+      <div className='mt-4'>
       <Footer/>
+      </div>
+    
       </div>
 
       </>

@@ -114,9 +114,9 @@ if(tabIndex==10){
    
     
    
-   <div className="bg-white ">
-    <div className="flex justify-center mt-5">
-    <div className="h-24 w-24 rounded-full border ">
+   <div className="bg-white   shadow-lg rounded-md  ">
+    <div className="flex justify-center ">
+    <div className="h-24 w-24 rounded-full border mt-6 ">
 
 </div>
 
@@ -135,7 +135,7 @@ if(tabIndex==10){
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 7.5A2.25 2.25 0 017.5 5.25h9a2.25 2.25 0 012.25 2.25v9a2.25 2.25 0 01-2.25 2.25h-9a2.25 2.25 0 01-2.25-2.25v-9z" />
      </svg> 
-     <span className="mb-2">Muhammad Rashid</span>
+     <span className="mb-2 font-semibold">Muhammad Rashid</span>
      
      
           </li>
@@ -283,7 +283,7 @@ if(tabIndex==10){
       
      
        
-     <div className=" border-t mt-28  m-2  h-fit">
+     <div className=" border-t mt-28  m-2  h-fit ">
      
        <div className="mt-6">
          <ul className="cursor-pointer">

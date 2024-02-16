@@ -10,15 +10,15 @@ const CalendarComp=()=>{
           <div className=" m-4 mt-0  mr-0 ">
        
        
-        <div>
-            <TopPerformers graphHeight={100}/>
+        <div className="  ">
+            <TopPerformers/>
         </div>
-        <div className="mt-6 ">
+        <div className="mt-7  ">
       
         <Notification/>
             
         </div>
-        <div className="mt-6  ">
+        <div className="mt-8    ">
         <Calendar/>
 
         </div>

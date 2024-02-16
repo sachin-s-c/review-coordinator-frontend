@@ -21,7 +21,7 @@ haiiii
        what
         </th>
         <th scope="col" className="w-1/4 px-4 py-6 text-center" style={{ whiteSpace: 'normal',wordWrap: 'break-word',  textOverflow: 'ellipsis' }}>
-       what
+       12-03-2023
         </th>
        
         <th scope="col" className="w-1/4 px-4 py-6 text-center ">

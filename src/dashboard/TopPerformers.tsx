@@ -5,11 +5,11 @@ const TopPerformers=()=>{
   
     return (
         <>
-         <div className="border border-2px  rounded-md  h-72 overflow-y-auto bg-white ">
+         <div className="border   rounded-md  h-72 overflow-y-auto bg-white  shadow-lg ">
          
- <div className="sticky top-0 z-10    bg-white top-fixed">
+ <div className="sticky top-0 z-10    bg-white top-fixed rounded-md">
   <div className=' mt-2 sticky '>
-  <span className='ml-2 mt-0  '>Top Performers</span>
+  <span className='ml-2 mt-0  font-semibold '>Top Performers</span>
  
   
 
