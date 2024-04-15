@@ -6,8 +6,14 @@ const Notification=()=>{
         <>
        
 <div className="border border-2px  rounded-md h-72 overflow-y-auto mt-5 bg-white  shadow-lg">
-    <div className="m-2 sticky top-3">
-        <span className="font-semibold">Notifications</span>
+    <div className="m-2 sticky top-3 flex justify-between">
+     <div>
+     <span className="font-semibold">Notifications</span>
+     </div>
+        <div className='mr-2'>
+  <span className='font-bold text-sm'>view all</span>
+</div>
+ 
     </div>
 
 

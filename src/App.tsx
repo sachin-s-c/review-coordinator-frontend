@@ -3,16 +3,17 @@ import Navigation from './components/Navigation'
 import EventCalendar from './events/EventCalendar'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import SideNav from './components/SideNav'
-import Scheduled from './schedule/Schedule'
+import Scheduled from './schedule /Schedule'
 import Dashboard from './dashboard/Dashboard'
 import ReviewerComp from './reviewer/ReviewerComp'
 import Account from './account/Account'
 import ExtPage from './extend-request/ExtPage'
 import Student from './students/Student'
-import Reviewer from './schedule/Reviewer'
+import Reviewer from './schedule /Reviewer'
 import Chat from './chat/Chat'
 import SignIn from './components/SignIn'
 import Footer from './components/Footer'
+import Review from './reviews/Review'
 
 
 function App() {
@@ -40,7 +41,7 @@ user?<Navigation/>:   <SignIn/>
 <SideNav/>
    
        </div>
-       <div className=" rounded-md  w-full     ">
+       <div className=" rounded-md  w-full">
 
 
       
@@ -53,8 +54,7 @@ user?<Navigation/>:   <SignIn/>
      <Route path='/reviewers/' element={<ReviewerComp/>}></Route>
      <Route path='/account/' element={<Account/>}></Route>
      <Route path='/events/' element={<EventCalendar/>}></Route>
-     <Route path='/cancelled-reviews/' element={<Scheduled/>}></Route>
-     <Route path='/rescheduled-review/' element={<Scheduled/>}></Route>
+     <Route path='/scheduled-review/' element={<Review/>}></Route>
      <Route path='/extend-requests/' element={<ExtPage/>}></Route>
      <Route path='/students/' element={<Student/>}></Route>
      <Route path='/chat/' element={<Chat/>}></Route>

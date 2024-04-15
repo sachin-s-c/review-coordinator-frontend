@@ -1,6 +1,6 @@
 import ReactApexChart from "react-apexcharts"
 import review from '../assets/images/profile.webp'
-const Box=()=>{
+const Box=({coordinator})=>{
     const series = [70]; //70 percent
     const options = {
       labels: [], //label of this diagram
@@ -33,7 +33,7 @@ const Box=()=>{
   <div className="flex m-2 ">
     <div> <span className="font-semibold">Today's Task </span>
  <div className="mt-3">
-   <span className="text-4xl">10</span>
+   <span className="text-4xl">{coordinator?.todaysReview?coordinator.todaysReview:0}</span>
  </div>
     </div>
     <div className=" mt-4 ml-6 border-darkBlue w-20 h-20 rounded-full border-4 "  > 

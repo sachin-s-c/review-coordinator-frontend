@@ -1,12 +1,16 @@
 
 
-const TaskUpdate=()=>{
+const TaskUpdate=({isVisible,onClose})=>{
+
+if(!isVisible) return null
+
     return (
         <>
-        <div className="border m-4 rounded-md ">
+<div className="z-40 fixed inset-0 flex  justify-center overflow-hidden  bg-black/60 overflow-y-scroll  py-14">
+<div className="border m-4 rounded-md  bg-white h-fit">
   <div className="flex justify-between m-2 mb-4 mt-3">
     <div></div>
-     <div><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 stroke-slate-400">
+     <div onClick={()=>{onClose()}} ><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 stroke-slate-400">
   <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
 </span></div>
@@ -184,6 +188,7 @@ const TaskUpdate=()=>{
 
 
 
+</div>
 </div>
         
         </>

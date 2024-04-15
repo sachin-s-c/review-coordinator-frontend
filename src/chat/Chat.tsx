@@ -8,7 +8,7 @@ const Chat=()=>{
    
     return (
         <>
-<div className="flex border  ">
+<div className="flex border ">
   
   
   <div className="border-r w-1/2 bg-white rounded-l-md ">

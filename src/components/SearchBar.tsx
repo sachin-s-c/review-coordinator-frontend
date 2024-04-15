@@ -1,11 +1,20 @@
 
 
 
-const SearchBar=()=>{
+const SearchBar=({getSearch})=>{
+
+
+
+  const search=(searchInput:string)=>{
+
+getSearch(searchInput)
+console.log(searchInput,'input value');
+
+  }
     return (
         <>
        
-        <div className="flex justify-between  p">
+        <div className="flex justify-between  ">
   {/* <div className="m-3  mt-4">
 
  <input type="search" className="border border-2px outline-none py-0.5 px-6"/>
@@ -19,7 +28,7 @@ const SearchBar=()=>{
 </svg>
 </div>
 <div>
-  <input type="search" className="     py-2 px-10 rounded-md border border-slate-200 outline-none   dark:focus:ring-black dark:focus:border-black " placeholder="hello search....... "/>
+  <input type="search" onChange={(event)=>{search(event.target.value)}} className="py-2 px-10 rounded-md border border-slate-200 outline-none   dark:focus:ring-black dark:focus:border-black " placeholder="hello search....... "/>
 </div>
   </div>
 </div>
